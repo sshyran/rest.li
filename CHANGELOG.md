@@ -14,6 +14,9 @@ and what APIs have changed, if applicable.
 
 ## [Unreleased]
 
+## [29.35.0] - 2022-05-17
+- Introduce restli-netty, a shaded Netty dependency for use with r2.
+
 ## [29.34.0] - 2022-05-11
 - update d2 partitioning logic to map unmapped URIs to default partition 0
 
@@ -5243,7 +5246,8 @@ patch operations can re-use these classes for generating patch messages.
 
 ## [0.14.1]
 
-[Unreleased]: https://github.com/linkedin/rest.li/compare/v29.34.0...master
+[Unreleased]: https://github.com/linkedin/rest.li/compare/v29.35.0...master
+[29.35.0]: https://github.com/linkedin/rest.li/compare/v29.34.0...v29.35.0
 [29.34.0]: https://github.com/linkedin/rest.li/compare/v29.33.7...v29.34.0
 [29.33.9]: https://github.com/linkedin/rest.li/compare/v29.33.8...v29.33.9
 [29.33.8]: https://github.com/linkedin/rest.li/compare/v29.33.7...v29.33.8
