@@ -16,7 +16,7 @@ and what APIs have changed, if applicable.
 
 ## [29.34.4] - 2022-06-15
 - Add connection warm up support when a failout has been initiated
-- 
+
 ## [29.34.3] - 2022-06-06
 - Translate Data.null to Avro null if schema field is optional
 
